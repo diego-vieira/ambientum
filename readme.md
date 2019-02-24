@@ -6,16 +6,16 @@
 [![npm version](https://badge.fury.io/js/%40ambientum%2Fcli.svg)](https://badge.fury.io/js/%40ambientum%2Fcli)
 [![Known Vulnerabilities](https://snyk.io/test/github/ambientum/cli/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ambientum/cli?targetFile=package.json)
 
-Keeping it uniform between development, staging and production environments is often something not easy.
-On the last years, our buddy Docker has become more and more mature and now it's becoming the standard.
+Keeping your dependencies between development, staging and production environments is sometimes not an easy task.
+In the past few years, our buddy Docker has become more and more mature and now it's becoming the standard for development and deployment of applications.
 
 We all love Laravel and Vue.JS, but why develop a Rock Star code with a Kick-Ass framework
 without an awesome environment?
 
-No more "it worked on my machine"!
+No more "it works on my machine"!
 
-## What is does?
-Ambientum can help you doing some amazing things, the 3 main scenarios are listed above:
+## What does this do?
+Ambientum can help you do some amazing things, there three main scenarios where Ambientum rocks:
 
 - **Run Laravel and/or Vue.JS in Development.**
 - **Run Laravel and/or Vue.JS in Production (Continuous Integration included).**
@@ -23,23 +23,23 @@ Ambientum can help you doing some amazing things, the 3 main scenarios are liste
 
 ## What do I need to know before getting started?
 
-Before staging with Ambientum, a few pieces of knowledge must be in place:
+Before you can start using Ambientum, you must have some basic knowledge on how to use the CLI (or command line) and Docker.
 
-#### For replacing local commands:
+#### To replace local dependencies
 - The basics of Docker and Containers.
 - Being comfortable around the command line.
 
-#### For running a development Laravel or Vue.JS environment:
-- Know how to operate `docker-compose`.
+#### To run a Laravel or Vue.JS dev environment
+- How to use `docker-compose`.
 
 
-## Notice
+## Note
 Docker compose shipped with Docker is usually very old.
 Please have the latest version installed from Github at https://github.com/docker/compose/releases.
 
 ## Images
-If you are already comfortable with the tools and have played around Ambientum, here are the set of images available for usage,
-so you can start building your environment with the tools that you may want.
+If you are already comfortable with the tools and have played around Ambientum, here are the set of images available for use,
+so you can start building your environment with the tools that you want.
 
 |Repository                 | Images/Tags                   | Description                                        |
 |---------------------------|-------------------------------|----------------------------------------------------|
@@ -54,11 +54,11 @@ so you can start building your environment with the tools that you may want.
 
 ## Quick usage guide
 
-### Replacing local commands:
+### Replacing local components:
 
 With Ambientum, you may replace local Node.JS and PHP installations.
 
-That's due usage of [Ambientum/CLI](https://github.com/ambientum/cli)
+[Ambientum/CLI](https://github.com/ambientum/cli) is the way to go.
 
 
 #### Installing **Ambientum CLI**:
